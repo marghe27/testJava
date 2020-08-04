@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    
+<!-- il seguente codice si inserisce per visualizzare la pagina di errore
+che si trova dentro alla cartella JSP, quando però la stessa pagina è richiamata
+per es nella header.jsp: 
+  
+<error-page>
+ <error-code>404</error-code>
+ <location>/jsp/error.jsp</location>
+</error-page>
+
+-->
+</web-app> 
